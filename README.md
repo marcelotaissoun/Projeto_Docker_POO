@@ -6,3 +6,4 @@ Eu (Marcelo) e meu colega Marcos desenvolvemos o front-end em JavaFX e as funcio
 Autores: Marcelo Taissoun e Marcos André.
 Supervisor: Sandro Andrade.
 Instutuição: IFBA - Instituto Federal de Educação, Ciência e Tecnologia da Bahia.
+
