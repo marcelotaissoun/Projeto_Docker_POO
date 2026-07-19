@@ -15,6 +15,6 @@ public class ChoosePolicies implements IGUI{
     }
 
     new ControllerChoosePolicesScreen(new ChoosePoliciesScreen());
-    new ServiceChoosePolicesScreen(new ChoosePoliciesScreen());
+
 
 }
