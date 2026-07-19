@@ -1,5 +1,7 @@
 package br.edu.ifba.inf008.plugins;
+
 import  br.edu.ifba.inf008.screens.ChoosePoliciesScreen;
+import br.edu.ifba.inf008.interfaces.IGUI;
 
 public class ChoosePolicies implements IGUI{
     @Override
