@@ -1,21 +1,21 @@
 package br.edu.ifba.inf008.plugins;
 
-import  br.edu.ifba.inf008.screens.ChoosePoliciesScreen;
+import  br.edu.ifba.inf008.screens.SignUpScreen;
 import br.edu.ifba.inf008.interfaces.IGUI;
 
 public class ChoosePolicies implements IGUI{
 
     @Override
     public void init(){
-        ChoosePoliciesScreen.constructScene();
+        SignUpScreen.constructScene();
     }
 
     @Override
     public String namePlugin(){
-        return "ChoosePolicies";
+        return ChoosePolicies.class.getName();
     }
 
-    new ControllerChoosePolicesScreen(new ChoosePoliciesScreen());
+    new ControllerSignUpScreen(new SignUpScreen());
 
 
 }
