@@ -2,7 +2,7 @@ services:
   mariadb:
     image: mariadb:11
     network_mode: "host"
-    container_name: inf008-ecommerce-mariadb
+    container_name: db
     restart: unless-stopped
     environment:
       MARIADB_ROOT_PASSWORD: root
