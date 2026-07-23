@@ -21,6 +21,17 @@
         <property name="hibernate.format_sql">true</property>
 
         <!-- Registre suas classes de entidade aqui -->
-        <!-- <mapping class="com.seuprojeto.model.SuaClasse" /> -->
+        <mapping class="br.edu.ifba.inf008.models.Cart" />
+        <mapping class="br.edu.ifba.inf008.models.CartItems" />
+        <mapping class="br.edu.ifba.inf008.models.Customers" />
+        <mapping class="br.edu.ifba.inf008.models.Discounts" />
+        <mapping class="br.edu.ifba.inf008.models.Order" />
+        <mapping class="br.edu.ifba.inf008.models.OrderItems" />
+        <mapping class="br.edu.ifba.inf008.models.OrderDiscountId" />
+        <mapping class="br.edu.ifba.inf008.models.OrderDiscounts" />
+        <mapping class="br.edu.ifba.inf008.models.Payments" />
+        <mapping class="br.edu.ifba.inf008.models.Product" />
+        <mapping class="br.edu.ifba.inf008.models.ShippingMethods" />
+        <mapping class="br.edu.ifba.inf008.models.StockMoviments" />
     </session-factory>
 </hibernate-configuration>
