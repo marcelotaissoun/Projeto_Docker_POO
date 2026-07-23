@@ -6,6 +6,8 @@ import javafx.application.Platform;
 
 public class Core extends ICore
 {
+    private static String scene;
+
     private Core() {}
 
     public static boolean init() {
@@ -19,6 +21,7 @@ public class Core extends ICore
 
         return true;
     }
+
     public IUIController getUIController() {
         return UIController.getInstance();
     }
