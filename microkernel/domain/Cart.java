@@ -1,9 +1,14 @@
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
+import java.time.LocalDateTime;
 
 public class Cart {
     private List<CartItem> items;
+    private Long id;
+    private Long customerId;
+    private String status;
+    private LocalDateTime createdAt;
 
     public Cart() {
         this.items = new ArrayList<>();
