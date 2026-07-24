@@ -6,12 +6,13 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
+import javafx.scene.Node;
 import br.edu.ifba.inf008.interfaces.IScreen;
 
 public class LogInScreen implements IScreen{
     
     @Override
-    public static void constructScene(){
+    public static Node constructScene(){
         <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
 <children>
 <PasswordField blendMode="DARKEN" layoutX="163.0" layoutY="189.0" prefHeight="36.0" prefWidth="249.0" promptText="Password:">

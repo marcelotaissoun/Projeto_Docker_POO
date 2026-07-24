@@ -9,29 +9,30 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>interfaces</module>
-        <module>app</module>
-        <module>plugins/myplugin</module>
+        <module>microkernel/interfaces</module>
+        <module>microkernel/app</module>
+        <module>plugins/nogui/myplugin</module>
     </modules>
 
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-    </properties>
-</project>
-
 <dependencies>
-    <!-- Core do Hibernate -->
+    
     <dependency>
         <groupId>org.hibernate.orm</groupId>
         <artifactId>hibernate-core</artifactId>
         <version>6.5.2.Final</version>
     </dependency>
 
-    <!-- Driver de Conexão do MariaDB -->
+    
     <dependency>
         <groupId>org.mariadb.jdbc</groupId>
         <artifactId>mariadb-java-client</artifactId>
         <version>3.3.3</version>
     </dependency>
 </dependencies>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+</project>

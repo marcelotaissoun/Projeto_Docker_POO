@@ -48,7 +48,7 @@ public class Cart {
     }
 
     public boolean isEmpty(){
-        if(items.size() == 0)
+        if(items.isEmpty())
             return true;
         
         return false;

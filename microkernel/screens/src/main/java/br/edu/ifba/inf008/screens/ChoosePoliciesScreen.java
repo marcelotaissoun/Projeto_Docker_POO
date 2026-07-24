@@ -6,12 +6,14 @@ package br.edu.ifba.inf008.screens;
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.layout.Pane?>
 
+import javafx.scene.Node;
+
 import br.edu.ifba.inf008.interfaces.IScreen;
 
 public class ChoosePoliciesScreen implements IScreen{
 
     @Override
-    public static void constructScene(){
+    public static Node constructScene(){
     <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
         <children>
             <Label layoutX="91.0" layoutY="43.0" text="Choose your freight"/>

@@ -1,17 +1,17 @@
 package br.edu.ifba.inf008.plugins;
 
 import br.edu.ifba.inf008.interfaces.IGUI;
-import br.edu.ifba.inf008.screens.LogInScreen;
+import br.edu.ifba.inf008.screens.SignUpScreen;
 
-public class LogIn extends IGUI {
+public class SignUp extends IGUI {
     
     @Override
     public void init(){
-        LogInScreen.constructScene();
+        SignUpScreen.constructScene();
     }
 
     @Override 
     public void setMainNode(){
-        mainNode = LogInScreen.constructScene();
+        mainNode = SignUpScreen.constructScene();
     }
 }

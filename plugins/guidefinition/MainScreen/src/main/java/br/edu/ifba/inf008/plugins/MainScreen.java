@@ -1,17 +1,17 @@
 package br.edu.ifba.inf008.plugins;
 
 import br.edu.ifba.inf008.interfaces.IGUI;
-import br.edu.ifba.inf008.screens.MainScreen;
+import br.edu.ifba.inf008.screens.MainScreenScreen;
 
-public class MainScreen implements IGUI{
+public class MainScreen extends IGUI {
     
     @Override
     public void init(){
-        MainScreen.constructScene();
+        MainScreenScreen.constructScene();
     }
 
-    @Override
-    public String getPluginName(){
-        return this.getClass().getName();
+    @Override 
+    public void setMainNode(){
+        mainNode = MainScreenScreen.constructScene();
     }
 }

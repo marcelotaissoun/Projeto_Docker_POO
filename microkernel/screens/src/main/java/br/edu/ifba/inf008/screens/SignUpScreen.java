@@ -10,12 +10,14 @@ package br.edu.ifba.inf008.screens;
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
+import javafx.scene.Node;
+
 import br.edu.ifba.inf008.interfaces.IScreen;
 
 public class SIgnUpScreen implements IScreen{
 
     @Override
-    public static void constructScene(){
+    public static Node constructScene(){
         <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
             <children>
                     <Button layoutX="249.0" layoutY="348.0" mnemonicParsing="false" text="Create account"/>

@@ -1,0 +1,14 @@
+/home/marcos-andre/computacao/IFBA/POO/INF008/microkernel/interfaces/src/main/java/br/edu/ifba/inf008/interfaces/IAuthenticationController.java
+/home/marcos-andre/computacao/IFBA/POO/INF008/microkernel/interfaces/src/main/java/br/edu/ifba/inf008/interfaces/ICore.java
+/home/marcos-andre/computacao/IFBA/POO/INF008/microkernel/interfaces/src/main/java/br/edu/ifba/inf008/interfaces/IDeliveryStrategy.java
+/home/marcos-andre/computacao/IFBA/POO/INF008/microkernel/interfaces/src/main/java/br/edu/ifba/inf008/interfaces/IDiscountPolicy.java
+/home/marcos-andre/computacao/IFBA/POO/INF008/microkernel/interfaces/src/main/java/br/edu/ifba/inf008/interfaces/IGUI.java
+/home/marcos-andre/computacao/IFBA/POO/INF008/microkernel/interfaces/src/main/java/br/edu/ifba/inf008/interfaces/IIOController.java
+/home/marcos-andre/computacao/IFBA/POO/INF008/microkernel/interfaces/src/main/java/br/edu/ifba/inf008/interfaces/IOriginDiscount.java
+/home/marcos-andre/computacao/IFBA/POO/INF008/microkernel/interfaces/src/main/java/br/edu/ifba/inf008/interfaces/IPayable.java
+/home/marcos-andre/computacao/IFBA/POO/INF008/microkernel/interfaces/src/main/java/br/edu/ifba/inf008/interfaces/IPayableStrategy.java
+/home/marcos-andre/computacao/IFBA/POO/INF008/microkernel/interfaces/src/main/java/br/edu/ifba/inf008/interfaces/IPlugin.java
+/home/marcos-andre/computacao/IFBA/POO/INF008/microkernel/interfaces/src/main/java/br/edu/ifba/inf008/interfaces/IPluginController.java
+/home/marcos-andre/computacao/IFBA/POO/INF008/microkernel/interfaces/src/main/java/br/edu/ifba/inf008/interfaces/IScene.java
+/home/marcos-andre/computacao/IFBA/POO/INF008/microkernel/interfaces/src/main/java/br/edu/ifba/inf008/interfaces/IShippingPolicy.java
+/home/marcos-andre/computacao/IFBA/POO/INF008/microkernel/interfaces/src/main/java/br/edu/ifba/inf008/interfaces/IUIController.java

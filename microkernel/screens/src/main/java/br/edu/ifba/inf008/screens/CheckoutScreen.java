@@ -16,12 +16,14 @@ package br.edu.ifba.inf008.screens;
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
+import javafx.scene.Node;
 import br.edu.ifba.inf008.interfaces.IScreen;
+
 
 public class CheckoutScreen implements IScreen{
 
     @Override 
-    public static void constructScene(){
+    public static Node constructScene(){
         <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
 <top>
 <Label text="CHECKOUT" BorderPane.alignment="CENTER">
