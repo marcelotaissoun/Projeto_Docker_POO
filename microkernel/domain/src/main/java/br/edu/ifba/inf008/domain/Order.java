@@ -1,3 +1,5 @@
+package br.edu.ifba.inf008.domain;
+
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
