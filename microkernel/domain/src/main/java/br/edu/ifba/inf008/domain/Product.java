@@ -1,3 +1,5 @@
+package br.edu.ifba.inf008.domain;
+
 import java.math.BigDecimal;
 
 public class Product {
