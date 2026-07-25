@@ -1,4 +1,6 @@
-import java.util.BigDecimal;
+package br.edu.ifba.inf008.domain;
+
+import java.math.BigDecimal;
 
 public class CartItem {
     private Product product;
